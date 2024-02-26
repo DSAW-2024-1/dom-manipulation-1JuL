@@ -4,10 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/styles.css" />
-    <title>Document</title>
+    <title>Mi TODO list</title>
   </head>
   <body>
-    <h1>Mi TODO list</h1>
-    <script src="scripts/script.js"></script>
+    <div class="container">
+      <div class="todo-section">
+        <h2>To-Do List <img src="./assets/todo-icon.png" alt="Icono To-Do"></h2>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Add a new task">
+          <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container">
+          
+        </ul>
+
+      </div>
+    </div>
+
+    <script src="./scripts/script.js"></script>
   </body>
 </html>
